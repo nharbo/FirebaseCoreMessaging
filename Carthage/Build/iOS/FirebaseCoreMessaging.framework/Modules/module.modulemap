@@ -1,0 +1,6 @@
+framework module FirebaseCoreMessaging {
+  umbrella header "FirebaseCoreMessaging.h"
+
+  export *
+  module * { export * }
+}

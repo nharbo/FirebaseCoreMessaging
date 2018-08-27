@@ -1,0 +1,22 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "5.6.0",
+  "iOS" : [
+    {
+      "name" : "FirebaseMessaging",
+      "hash" : "193f98ff42139d8a72aa001d8c7048e391ed962c4d0c850a8b1aeb905043d0bc"
+    },
+    {
+      "name" : "Protobuf",
+      "hash" : "e7509d1b2d3766190fc110bce4b313868df48d61d97c35167494877aed70e3af"
+    }
+  ]
+}
