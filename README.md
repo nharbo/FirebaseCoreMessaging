@@ -45,10 +45,9 @@ Almost there :)
 
 If you start seeing weird linker errors about GoogleAnalytics something something, you may need to add `CoreData` as a dependency to your project.
 
-
-Points to be aware of:
-  - Remember to set the `-Obj` flag in Other Linker Flags
-  - Add the following dependencies, besides from the Firebase frameworks:
+## Points to be aware of
+- Remember to set the `-Obj` flag in Other Linker Flags
+- Add the following dependencies, besides from the Firebase frameworks:
     ```sh
     libc++.tbd
     libsqlite3.tbd
@@ -56,7 +55,7 @@ Points to be aware of:
     iAd.framework
     StoreKit.framework
     ```
-  - Remember *NOT* to add the Firebase.framework in list of frameworks
-  - Be aware that this way of implementing Firebase, won't necessarily guarentee you the newest versions - you need to keep your binary .json files updated, to get the newest version when running `carthage update`, and then hope that Google keeps these files up to date as well.
+- Remember *NOT* to add the Firebase.framework in list of frameworks
+- Be aware that this way of implementing Firebase, won't necessarily guarantee you the newest versions - you need to keep your binary .json files updated, to get the newest version when running `carthage update`, and then hope that Google keeps these files up to date as well.
 
 If in doubt of implementation, have a look at the [demoproject](https://github.com/firebase/firebase-ios-sdk) :-)
